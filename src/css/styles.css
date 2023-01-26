@@ -18,3 +18,50 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-card {
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+
+  border: 1px, solid, gray;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+.flag {
+  width: 240px;
+}
+.country-info {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0.8;
+}
+
+.country-data {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.country-list {
+  padding-left: 0;
+}
+
+.country-item {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 320px;
+}
+
+.item-flag {
+  width: 40px;
+  margin-right: 20px;
+}
+.item-name {
+  font-size: 24px;
+}
